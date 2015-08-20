@@ -3,7 +3,7 @@
 Servico que facilita a comunicacao com os servidores remotos via http com o objeto XMLHttpRequest a funcao curry, retornando um promisse
 
 ```javascript
-Ninja(['$equal', '$every'], function ($equal, $every) {
+Ninja(['$http'], function ($http) {
 
   function render(xhr) {
     document.querySelector('body').innerHTML = xhr.responseText;
