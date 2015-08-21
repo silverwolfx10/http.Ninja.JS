@@ -15,7 +15,7 @@
  *        $http('GET', './template.html', '').when(200, render);
  * 
  */
-Ninja.service('$http', ['$curry', '$interceptor'], function ($curry, $interceptor) {
+Ninja.module('$http', ['$curry', '$interceptor'], function ($curry, $interceptor) {
   
   /**
    * Servico que facilita a comunicacao com os servidores remotos via
