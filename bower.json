@@ -1,0 +1,27 @@
+{
+  "name": "http.Ninja.JS",
+  "version": "0.0.0",
+  "authors": [
+    "Cleber de Moraes Goncalves <cleber.programmer@hotmail.com>"
+  ],
+  "description": "Servico que facilita a comunicacao com os servidores remotos via http com o objeto XMLHttpRequest a funcao curry, retornando um promisse",
+  "main": "http.js",
+  "keywords": [
+    "javascript"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/Bibizzy/http.Ninja.JS",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "Ninja.JS": "*",
+    "curry.Ninja.JS": "*",
+    "interceptor.Ninja.JS": "*",
+    "reduce.Ninja.JS": "*"
+  }
+}
